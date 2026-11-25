@@ -28,3 +28,26 @@
 .accordeon details[open] > div {
   background-color: #f2f2f2;
 }
+
+.accordeon > details > summary {
+  list-style: none;
+}
+
+.accordeon > details > summary::marker,
+.accordeon > details > summary::-webkit-details-marker {
+  display: none;
+}
+
+.accordeon > details > summary::after {
+  content: "";
+  display: inline-block;
+  margin: 10px;
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  border-left: 10px solid black;
+  transition: transform 0.3s;
+}
+
+.accordeon > details[open] > summary::after {
+  transform: rotate(90deg);
+}
