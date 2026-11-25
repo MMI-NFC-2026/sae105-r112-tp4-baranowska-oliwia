@@ -1,3 +1,22 @@
-/**
-* Accordeon
-*/
+.accordeon {
+  display: flex;
+  gap: 10px;
+}
+
+.accordeon details {
+  flex: 1;
+  overflow: hidden;
+}
+
+.accordeon details summary {
+  cursor: pointer;
+}
+
+.accordeon details summary img {
+  width: 100%;
+  display: block;
+}
+
+.accordeon details > div {
+  padding: 15px;
+}

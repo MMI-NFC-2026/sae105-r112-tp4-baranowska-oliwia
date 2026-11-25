@@ -1,6 +1,6 @@
-- nom :
-- prénom :
-- URL Netlify :
+- nom : baranowska
+- prénom : oliwia
+- URL Netlify : 
 
 # Travail
 
