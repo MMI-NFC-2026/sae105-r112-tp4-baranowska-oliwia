@@ -20,3 +20,11 @@
 .accordeon details > div {
   padding: 15px;
 }
+
+.accordeon details[open] {
+  flex: 3;
+}
+
+.accordeon details[open] > div {
+  background-color: #f2f2f2;
+}
